@@ -4,6 +4,7 @@ CHANGELOG
 5.4
 ---
 
+ * Add SerializerDecorator that will remove non-sendable stamps and then call the decorated serializer.
  * Add `AsMessageHandler` attribute for declaring message handlers on PHP 8.
  * Add support for handling messages in batches with `BatchHandlerInterface` and corresponding trait
  * Add `StopWorkerExceptionInterface` and its implementation `StopWorkerException` to stop the worker.
